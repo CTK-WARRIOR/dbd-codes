@@ -3,7 +3,8 @@
  
 • ghost || Value - 0
 
-**1st Command = {prefix}find the ghost**\n
+**1st Command = {prefix}find the ghost**
+
 `$nomention
 $title[HALLOWEEN GAME]
 $color[#0000ff]
