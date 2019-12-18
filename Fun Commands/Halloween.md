@@ -3,13 +3,13 @@
  
 • ghost || Value - 0
 
-**1st Command = {prefix}find the ghost**
+**1st Command = {prefix}find the ghost**\n
 `$nomention
 $title[HALLOWEEN GAME]
 $color[#0000ff]
 $description[Game is Started....]
-$addField[HOW TO PLAY;`Go to every channel and type p!checkghost, if you were lucky you will find ghost and win the game`]
-$addField[WINNING REWARD;`You will get Free Nitro if you win the game`]
+$addField[HOW TO PLAY;Go to every channel and type p!checkghost, if you were lucky you will find ghost and win the game]
+$addField[WINNING REWARD;You will get Free Nitro if you win the game]
 $setUserVar[ghost;1]`
 
 
