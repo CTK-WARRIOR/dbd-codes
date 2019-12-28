@@ -1,0 +1,9 @@
+$nomention
+$onlyIf[$mentioned[<]!=$authorID;Sorry i dont have enough courage to kick you :(]
+$argsCheck[>1;Please Mention the  member that you want to kick]
+$argsCheck[>2;Please Give Reason]
+$thumbnail[$userAvatar[$mentioned[<]]]$kickMention[$noMentionMessage]
+$title[$username kicked $username[$mentioned[<]]]
+$addField[Reason;`$noMentionMessage`]
+$color[#ff2052]
+$addTimestamp
