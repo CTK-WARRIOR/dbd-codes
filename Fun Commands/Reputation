@@ -1,0 +1,7 @@
+$nomention
+$argsCheck[1;You have to mention someone.]
+$title[Reputation]
+$description[$username gave 1 reputation point to $username[$mentioned[1]] now $username[$mentioned[1]] have $sum[$getVar[reputation;$mentioned[1]];1] reputation points.]
+$footer[DBD And More Reputation Command]
+$color[#00ff22]
+$setVar[reputation;$sum[$getVar[reputation;$mentioned[1]];1];$mentioned[1]]
