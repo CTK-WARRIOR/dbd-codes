@@ -1,0 +1,7 @@
+$nomention
+$title[8ball Command]
+$description[]
+$addField[Question;$message]
+$addField[Answer;<🎱663284895224692762> **$randomText[Yes;No;Yeah Gooo; No Not Never...;No boii; Never; yeahhhh; doit; not; nvm;go with it]**]
+$footer[DBD And More 8ball Command]
+$color[00ff22]
