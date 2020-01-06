@@ -1,0 +1,18 @@
+You must have money var with 0 value
+
+
+• Code
+
+$nomention
+$onlyIf[$getUserVar[money]>=$noMentionMessage;Sorry You didn't Have enough money]
+$argsCheck[>1;Please mention the person to who you want to give money]
+$argsCheck[>2;After mentioning person please type the amount of money that you want to give]
+
+$setUserVar[money;$sum[$getUserVar[money;$mentioned[1]];$noMentionMessage];$mentioned[1]]
+
+$setUserVar[money;$sub[$getUserVar[money];$noMentionMessage]]
+
+$title[MONEY TRANSFERD]
+$color[#ff2050]
+$description[You gave $$noMentionMessage to $username[$mentioned[1]]]
+$addTimestamp
