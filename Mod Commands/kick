@@ -1,4 +1,5 @@
 $nomention
+$onlyAdmin[You didn't have perms to kick someone]
 $onlyIf[$mentioned[<]!=$authorID;Sorry i dont have enough courage to kick you :(]
 $argsCheck[>1;Please Mention the  member that you want to kick]
 $argsCheck[>2;Please Give Reason]
