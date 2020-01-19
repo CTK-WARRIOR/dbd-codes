@@ -4,7 +4,7 @@
 
 $nomention
 $cooldown[5h;Go for rest you are exhausted already]
-$setUserVar[money;$sum[$getUserVar[money];$random[0;99]]]
+$setUserVar[money;$sum[$getUserVar[money]];$random[0;99]]]
 $title[REWARD]
 $color[#ff2050]
 $description[Nice Work! You got $random[0;99] dollers]
