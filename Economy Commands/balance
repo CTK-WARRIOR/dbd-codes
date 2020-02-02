@@ -1,0 +1,8 @@
+|| YOU MUST HAVE VARIABLE WITH NAME "money" WITH VALUE "0"||
+
+
+$nomention
+$title[ACCOUNT BALANCE]
+$color[#ff2050]
+$description[Your cureent balance is $$getUserVar[money]]
+$footer[$username's Balance]
